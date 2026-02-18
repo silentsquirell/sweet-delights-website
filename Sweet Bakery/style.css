@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.header {
+    background: pink;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    background: #ffe4e1;
+    padding: 50px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background: pink;
+    text-align: center;
+    padding: 10px;
+}
